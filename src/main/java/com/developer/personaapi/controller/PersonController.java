@@ -2,7 +2,6 @@ package com.developer.personaapi.controller;
 
 import com.developer.personaapi.dto.request.PersonDTO;
 import com.developer.personaapi.dto.response.MessageResponseDTO;
-import com.developer.personaapi.entity.Person;
 import com.developer.personaapi.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
