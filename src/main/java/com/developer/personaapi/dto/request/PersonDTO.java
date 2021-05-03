@@ -10,7 +10,6 @@ import org.hibernate.validator.constraints.br.CPF;
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-import java.time.LocalDate;
 import java.util.List;
 
 @Data
@@ -19,7 +18,7 @@ import java.util.List;
 @Builder
 public class PersonDTO {
 
-	private  Long id;
+	private Long id;
 
 	@NotEmpty
 	@Size(min = 2, max = 100)
@@ -33,7 +32,7 @@ public class PersonDTO {
 	@CPF
 	private String cpf;
 
-	private String birthDay;
+	private String birthDate;
 
 	@Valid
 	@NotEmpty
