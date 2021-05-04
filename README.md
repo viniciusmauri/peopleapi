@@ -1,6 +1,11 @@
 # People Api
 Api para criação de pessoas. Intuito da criação deste é para praticar as técnicas e tecnologias aqui aplicadas.
 Esta Api foi criada utilizando o framework SpringBoot na versão *2.4.5*.
+Este projeto esta diponível online também, utilizei o Heroku para efetuar o deploy da aplicação e também disponibilizá-lo online.
+```shell script
+https://peopleapi-devloper.herokuapp.com/api/v1/people
+```
+
 # Pré-requisitos
 * Java 11 ou superior
 * Maven 3.6.3 ou superior
