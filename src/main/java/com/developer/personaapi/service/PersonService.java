@@ -22,7 +22,7 @@ public class PersonService {
 
 	private final PersonRepository personRepository;
 
-	public MessageResponseDTO createPerson(PersonDTO personDTO) {
+	public MessageResponseDTO create(PersonDTO personDTO) {
 		Person personToSave = personMapper.toModel(personDTO);
 		Person savedPerson = personRepository.save(personToSave);
 
